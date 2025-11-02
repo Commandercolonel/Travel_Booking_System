@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Travel Booking Application
 
 ## Overview
@@ -53,3 +54,6 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+=======
+"# Travel_Booking" 
+>>>>>>> daafe8ba6d1af9a09249342375406c0bf6d41bca
