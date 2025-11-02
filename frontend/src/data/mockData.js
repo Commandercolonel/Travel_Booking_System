@@ -8,7 +8,7 @@ export const HOTELS = [
   { id: 'h7', name: 'Radisson Blu', location: 'Pune, India', price: 7000, rating: 4.2, img: './images/7.jpg', description: 'Reliable upscale hotel in Pune.' },
   { id: 'h8', name: 'The Lalit', location: 'Kolkata, India', price: 6500, rating: 4.1, img: './images/8.jpg', description: 'Luxurious comfort in the city.' },
   { id: 'h9', name: 'Fortune Park', location: 'Ahmedabad, India', price: 5000, rating: 4.0, img: './images/9.jpg', description: 'Good value hotel for travelers.' },
-  { id: 'h10', name: 'Hotel Clarks Shiraz', location: 'Agra, India', price: 4500, rating: 4.0, img: './images/10.jpg', description: 'Near the Taj Mahal for tourists.' },
+  
   // 11 additional hotels; 5 located in Tamil Nadu with prices between ₹5,000 - ₹6,500
   { id: 'h11', name: 'Hotel Breeze', location: 'Chennai, Tamil Nadu', price: 6200, rating: 4.2, img: './images/11.jpg', description: 'Comfortable stay close to the marina.' },
   { id: 'h12', name: 'Coimbatore Central', location: 'Coimbatore, Tamil Nadu', price: 5400, rating: 4.0, img: './images/12.jpg', description: 'Business-friendly hotel with great connectivity.' },
@@ -16,12 +16,8 @@ export const HOTELS = [
   { id: 'h14', name: 'Ooty Hills Resort', location: 'Ooty, Tamil Nadu', price: 6500, rating: 4.3, img: './images/14.jpg', description: 'Hill resort with valley views.' },
   { id: 'h15', name: 'Kodaikanal View Inn', location: 'Kodaikanal, Tamil Nadu', price: 5800, rating: 4.2, img: './images/15.jpg', description: 'Scenic stay with lake access.' },
   // 6 more hotels across India
-  { id: 'h16', name: 'Ginger Hotel', location: 'Bhubaneswar, India', price: 4800, rating: 3.9, img: './images/16.jpg', description: 'Affordable, clean and convenient.' },
-  { id: 'h17', name: 'The Gateway', location: 'Visakhapatnam, India', price: 7200, rating: 4.2, img: './images/17.jpg', description: 'Sea-facing hotel with modern amenities.' },
-  { id: 'h18', name: 'Hotel Marina', location: 'Puducherry, India', price: 5600, rating: 4.0, img: './images/18.jpg', description: 'Coastal stay with French Quarter nearby.' },
-  { id: 'h19', name: 'Silver Springs', location: 'Lucknow, India', price: 5300, rating: 4.0, img: './images/19.jpg', description: 'Comfortable hotel in the heart of the city.' },
-  { id: 'h20', name: 'Grand Pine', location: 'Dehradun, India', price: 6700, rating: 4.3, img: './images/20.jpg', description: 'Hillside hotel with nature views.' },
-  { id: 'h21', name: 'Desert Pearl', location: 'Jaisalmer, India', price: 7500, rating: 4.4, img: './images/21.jpg', description: 'Unique desert stay near the forts.' }
+  { id: 'h16', name: 'Ginger Hotel', location: 'Bhubaneswar, India', price: 4800, rating: 3.9, img: './images/16.jpg', description: 'Affordable, clean and convenient.' }
+
 ];
 
 export const FLIGHTS = [
@@ -33,18 +29,8 @@ export const FLIGHTS = [
   { id: 'f6', airline: 'Vistara', flightNumber: 'UK-512', from: 'Delhi', to: 'Goa', departure: '06:30', arrival: '08:50', duration: '2h 20m', price: 9800, img: './images/48.webp', description: 'Curated leisure service with inflight refreshments and premium seating.' },
   { id: 'f7', airline: 'IndiGo', flightNumber: '6E-210', from: 'Hyderabad', to: 'Bengaluru', departure: '12:00', arrival: '13:10', duration: '1h 10m', price: 4200, img: './images/49.webp', description: 'Business-friendly timings and quick turnaround for same-day travel.' },
   { id: 'f8', airline: 'AirAsia India', flightNumber: 'I5-345', from: 'Kochi', to: 'Bengaluru', departure: '15:40', arrival: '16:45', duration: '1h 5m', price: 3600, img: './images/50.webp', description: 'Budget-conscious fares with optional add-ons and transparent pricing.' },
-  { id: 'f9', airline: 'SpiceJet', flightNumber: 'SG-410', from: 'Mumbai', to: 'Hyderabad', departure: '20:30', arrival: '22:00', duration: '1h 30m', price: 4900, img: './images/51.webp', description: 'Convenient late-evening departures and comfortable recline seats.' },
-  { id: 'f10', airline: 'IndiGo', flightNumber: '6E-678', from: 'Pune', to: 'New Delhi', departure: '05:00', arrival: '07:05', duration: '2h 5m', price: 7000, img: './images/52.webp', description: 'Early bird service with streamlined boarding and fast baggage delivery.' },
-  { id: 'f11', airline: 'Vistara', flightNumber: 'UK-806', from: 'Ahmedabad', to: 'Mumbai', departure: '10:20', arrival: '11:35', duration: '1h 15m', price: 5300, img: './images/43.webp', description: 'Business-class options and premium customer care onboard.' },
-  { id: 'f12', airline: 'Air India Express', flightNumber: 'IX-880', from: 'Trivandrum', to: 'Kolkata', departure: '07:50', arrival: '10:25', duration: '2h 35m', price: 8200, img: './images/44.webp', description: 'Value service with regional connections and reliable timings.' },
-  { id: 'f13', airline: 'IndiGo', flightNumber: '6E-312', from: 'Jaipur', to: 'Delhi', departure: '13:00', arrival: '14:05', duration: '1h 5m', price: 3800, img: './images/45.webp', description: 'Frequent shuttle service ideal for short business trips.' },
-  { id: 'f14', airline: 'SpiceJet', flightNumber: 'SG-789', from: 'Goa', to: 'Bengaluru', departure: '11:15', arrival: '12:05', duration: '0h 50m', price: 4100, img: './images/46.webp', description: 'Quick coastal route with easy boarding and friendly staff.' },
-  { id: 'f15', airline: 'Air India', flightNumber: 'AI-560', from: 'Kolkata', to: 'New Delhi', departure: '17:10', arrival: '19:45', duration: '2h 35m', price: 7400, img: './images/47.webp', description: 'Full-service carrier with inflight meals and checked baggage allowance.' },
-  { id: 'f16', airline: 'GoAir', flightNumber: 'G8-221', from: 'Lucknow', to: 'Mumbai', departure: '09:10', arrival: '11:55', duration: '2h 45m', price: 6800, img: './images/48.webp', description: 'Affordable fares and convenient connectivity to major hubs.' },
-  { id: 'f17', airline: 'IndiGo', flightNumber: '6E-900', from: 'Surat', to: 'Ahmedabad', departure: '06:40', arrival: '07:35', duration: '0h 55m', price: 2200, img: './images/49.webp', description: 'Short regional hop with competitive pricing and punctual departures.' },
-  { id: 'f18', airline: 'Vistara', flightNumber: 'UK-330', from: 'Kochi', to: 'Hyderabad', departure: '12:30', arrival: '14:45', duration: '2h 15m', price: 8200, img: './images/50.webp', description: 'Premium experience with attentive cabin crew and plush seating.' },
-  { id: 'f19', airline: 'Air India Express', flightNumber: 'IX-301', from: 'Goa', to: 'Delhi', departure: '19:00', arrival: '21:50', duration: '2h 50m', price: 9400, img: './images/51.webp', description: 'Popular holiday route with seasonal deals and extra legroom.' },
-  { id: 'f20', airline: 'IndiGo', flightNumber: '6E-721', from: 'Chandigarh', to: 'Bengaluru', departure: '05:50', arrival: '08:40', duration: '2h 50m', price: 8800, img: './images/52.webp', description: 'Wide network connectivity for efficient business and leisure travel.' }
+  { id: 'f9', airline: 'SpiceJet', flightNumber: 'SG-410', from: 'Mumbai', to: 'Hyderabad', departure: '20:30', arrival: '22:00', duration: '1h 30m', price: 4900, img: './images/51.webp', description: 'Convenient late-evening departures and comfortable recline seats.' }
+  
 ];
 
 export const BUSES = [
@@ -56,14 +42,8 @@ export const BUSES = [
   { id: 'b6', operator: 'ExpressWay', busNumber: 'EW-11', from: 'Hyderabad', to: 'Vijayawada', departure: '13:00', arrival: '16:20', duration: '3h 20m', price: 520, img: './images/79.jpg', description: 'Express intercity service with priority boarding and punctual departures.' },
   { id: 'b7', operator: 'Volvo Lux', busNumber: 'VL-08', from: 'Bengaluru', to: 'Goa', departure: '20:00', arrival: '06:00', duration: '10h 0m', price: 1200, img: './images/78.jpg', description: 'Overnight Volvo sleepers with individual reading lights and privacy curtains.' },
   { id: 'b8', operator: 'MetroLink', busNumber: 'ML-03', from: 'Kolkata', to: 'Digha', departure: '09:30', arrival: '13:15', duration: '3h 45m', price: 380, img: './images/77.jpg', description: 'Coastal route with comfortable seating and driver-friendly schedules.' },
-  { id: 'b9', operator: 'RapidMove', busNumber: 'RM-21', from: 'Chandigarh', to: 'Amritsar', departure: '11:00', arrival: '13:30', duration: '2h 30m', price: 300, img: './images/76.jpg', description: 'Fast commuter service with limited stops and smooth highways.' },
-  { id: 'b10', operator: 'Seater Pro', busNumber: 'SP-19', from: 'Lucknow', to: 'Varanasi', departure: '14:00', arrival: '18:00', duration: '4h 0m', price: 480, img: './images/75.jpg', description: 'Reliable daytime service with clean interiors and helpful staff.' },
-  { id: 'b11', operator: 'TourConnect', busNumber: 'TC-55', from: 'Munnar', to: 'Thekkady', departure: '08:30', arrival: '11:30', duration: '3h 0m', price: 650, img: './images/74.jpg', description: 'Scenic hill route tailored for tourists with guided pickup options.' },
-  { id: 'b12', operator: 'CityShuttle', busNumber: 'CS-06', from: 'Pune', to: 'Aurangabad', departure: '07:20', arrival: '11:40', duration: '4h 20m', price: 540, img: './images/73.jpg', description: 'Convenient mid-range service with scheduled departures and seat selection.' },
-  { id: 'b13', operator: 'Royal Coaches', busNumber: 'RC-02', from: 'Jodhpur', to: 'Jaisalmer', departure: '09:00', arrival: '13:45', duration: '4h 45m', price: 880, img: './images/72.jpg', description: 'Comfortable coaches for long-distance travel across desert routes.' },
-  { id: 'b14', operator: 'Connector', busNumber: 'CN-33', from: 'Guwahati', to: 'Shillong', departure: '06:00', arrival: '11:00', duration: '5h 0m', price: 950, img: './images/71.jpg', description: 'Mountainous route with experienced drivers and safe handling.' },
-  { id: 'b15', operator: 'EcoRide', busNumber: 'ER-47', from: 'Indore', to: 'Ujjain', departure: '15:00', arrival: '17:15', duration: '2h 15m', price: 260, img: './images/70.jpg', description: 'Budget-friendly and eco-conscious operators committed to cleanliness.' }
-
+  { id: 'b9', operator: 'RapidMove', busNumber: 'RM-21', from: 'Chandigarh', to: 'Amritsar', departure: '11:00', arrival: '13:30', duration: '2h 30m', price: 300, img: './images/76.jpg', description: 'Fast commuter service with limited stops and smooth highways.' }
+  
 ];
 
 export const TRAINS = [
@@ -75,18 +55,8 @@ export const TRAINS = [
   { id: 't6', operator: 'Garib Rath', trainNumber: '12209', from: 'Mumbai', to: 'Patna', departure: '10:40', arrival: '09:00', duration: '22h 20m', price: 950, img: './images/25.jpg', description: 'Value-oriented AC travel with good cost-to-comfort ratio.' },
   { id: 't7', operator: 'Intercity Express', trainNumber: '12629', from: 'Chennai', to: 'Bengaluru', departure: '06:50', arrival: '11:20', duration: '4h 30m', price: 600, img: './images/24.jpg', description: 'Frequent intercity link suited for business commuters.' },
   { id: 't8', operator: 'Vande Bharat', trainNumber: '22436', from: 'New Delhi', to: 'Varanasi', departure: '07:00', arrival: '11:45', duration: '4h 45m', price: 1600, img: './images/23.jpg', description: 'Semi-high-speed modern train with superior onboard amenities.' },
-  { id: 't9', operator: 'Express', trainNumber: '15007', from: 'Ahmedabad', to: 'Jaipur', departure: '08:30', arrival: '18:50', duration: '10h 20m', price: 750, img: './images/22.jpg', description: 'Reliable long-distance express connecting western and northern cities.' },
-  { id: 't10', operator: 'Passenger', trainNumber: '09543', from: 'Kochi', to: 'Thrissur', departure: '06:10', arrival: '07:30', duration: '1h 20m', price: 60, img: './images/31.webp', description: 'Short-distance local service for daily commuters.' },
-  { id: 't11', operator: 'Superfast', trainNumber: '12841', from: 'Visakhapatnam', to: 'Bhubaneswar', departure: '09:15', arrival: '13:20', duration: '4h 5m', price: 680, img: './images/30.jpg', description: 'Superfast corridor with limited stops and reserved seating.' },
-  { id: 't12', operator: 'Mail', trainNumber: '12157', from: 'Lucknow', to: 'Kanpur', departure: '12:00', arrival: '13:40', duration: '1h 40m', price: 120, img: './images/29.jpg', description: 'Traditional mail/express service with consistent schedules.' },
-  { id: 't13', operator: 'Humsafar', trainNumber: '20825', from: 'Delhi', to: 'Bareilly', departure: '16:45', arrival: '21:30', duration: '4h 45m', price: 980, img: './images/28.jpg', description: 'Air-conditioned modern coaches with entertainment options.' },
-  { id: 't14', operator: 'Kavi Guru', trainNumber: '13015', from: 'Howrah', to: 'Jaynagar', departure: '05:30', arrival: '19:50', duration: '14h 20m', price: 650, img: './images/27.jpg', description: 'Economy long-haul service designed for affordability.' },
-  { id: 't15', operator: 'Antyodaya', trainNumber: '22903', from: 'Guwahati', to: 'Dibrugarh', departure: '02:00', arrival: '14:10', duration: '12h 10m', price: 540, img: './images/26.jpg', description: 'High-capacity unreserved coaches for mass transit.' },
-  { id: 't16', operator: 'Jan Shatabdi', trainNumber: '12057', from: 'Pune', to: 'Mumbai', departure: '07:25', arrival: '10:05', duration: '2h 40m', price: 320, img: './images/25.jpg', description: 'Affordable fast-day train with comfortable seating.' },
-  { id: 't17', operator: 'Express', trainNumber: '22687', from: 'Trivandrum', to: 'Madurai', departure: '11:50', arrival: '19:10', duration: '7h 20m', price: 720, img: './images/24.jpg', description: 'Well-serviced overnight connections across south India.' },
-  { id: 't18', operator: 'Superfast', trainNumber: '22965', from: 'Bhopal', to: 'Indore', departure: '06:35', arrival: '09:20', duration: '2h 45m', price: 270, img: './images/23.jpg', description: 'Efficient intercity link with reserved seating options.' },
-  { id: 't19', operator: 'Vande Bharat', trainNumber: '22218', from: 'Ahmedabad', to: 'Surat', departure: '08:05', arrival: '09:50', duration: '1h 45m', price: 1200, img: './images/22.jpg', description: 'Comfort-focused semi-high-speed train with onboard refreshments.' },
-  { id: 't20', operator: 'Express Night', trainNumber: '16234', from: 'Patna', to: 'Kolkata', departure: '21:10', arrival: '07:05', duration: '9h 55m', price: 680, img: './images/31.webp', description: 'Popular night express with sleeper coaches and secure berths.' }
+  { id: 't9', operator: 'Express', trainNumber: '15007', from: 'Ahmedabad', to: 'Jaipur', departure: '08:30', arrival: '18:50', duration: '10h 20m', price: 750, img: './images/22.jpg', description: 'Reliable long-distance express connecting western and northern cities.' }
+  
 ];
 
 export const TOURS = [
@@ -98,16 +68,6 @@ export const TOURS = [
   { id: 'p6', name: 'Kerala Tea Trails', location: 'Munnar & Thekkady', duration: '4 days', price: 15000, img: './images/58.webp', description: 'Tea estate walks, spice gardens and comfortable boutique stays.' },
   { id: 'p7', name: 'Goa Coastal Leisure', location: 'North & South Goa', duration: '4 days', price: 14000, img: './images/59.webp', description: 'Beachfront stays, water sports options and curated nightlife recommendations.' },
   { id: 'p8', name: 'Spiti Valley Adventure', location: 'Spiti, Himachal Pradesh', duration: '7 days', price: 46000, img: './images/60.webp', description: 'High-altitude scenic drives, monastery visits and expert local guides.' },
-  { id: 'p9', name: 'Sundarbans Wildlife Cruise', location: 'Sundarbans', duration: '3 days', price: 21000, img: './images/61.webp', description: 'Guided river safaris with experienced naturalists and comfortable boat cabins.' },
-  { id: 'p10', name: 'South India Temple Trail', location: 'Madurai — Thanjavur — Chidambaram', duration: '5 days', price: 17000, img: './images/62.webp', description: 'Cultural immersion, expert guides and curated temple tours.' },
-  { id: 'p11', name: 'Wildlife of Ranthambore', location: 'Ranthambore National Park', duration: '3 days', price: 19000, img: './images/53.webp', description: 'Early morning safaris, lodging near the park and expert trackers.' },
-  { id: 'p12', name: 'Northeast Cultural Discovery', location: 'Kaziranga & Shillong', duration: '6 days', price: 28000, img: './images/54.webp', description: 'Elephant safaris, local homestays and cultural encounters.' },
-  { id: 'p13', name: 'Ladakh Soul Journey', location: 'Leh — Nubra — Pangong', duration: '6 days', price: 52000, img: './images/55.webp', description: 'High-altitude circuits with acclimatization, scenic vistas and expert drivers.' },
-  { id: 'p14', name: 'Mumbai City Highlights', location: 'Mumbai', duration: '2 days', price: 8000, img: './images/53.webp', description: 'Curated city walks, gateway tours and culinary experiences.' },
-  { id: 'p15', name: 'Spiritual Varanasi Experience', location: 'Varanasi', duration: '2 days', price: 9000, img: './images/56.webp', description: 'Sunrise boat rides, spiritual tours and guided local markets.' },
-  { id: 'p16', name: 'Honeymoon Kerala', location: 'Kumarakom & Alleppey', duration: '4 days', price: 26000, img: './images/57.webp', description: 'Romantic stays, private houseboats and bespoke experiences for couples.' },
-  { id: 'p17', name: 'Gujarat Heritage & Wildlife', location: 'Ahmedabad — Gir', duration: '5 days', price: 23000, img: './images/58.webp', description: 'Asiatic lion safaris, heritage walks and curated local crafts visits.' },
-  { id: 'p18', name: 'Rural Rajasthan Homestay', location: 'Shekhawati & Nearby Villages', duration: '4 days', price: 15000, img: './images/59.webp', description: 'Authentic homestays, local arts & crafts and village tours.' },
-  { id: 'p19', name: 'Andhra Coastal Gems', location: 'Visakhapatnam & Araku', duration: '3 days', price: 12500, img: './images/60.webp', description: 'Coastal viewpoints, hill station visits and curated local cuisine.' },
-  { id: 'p20', name: 'Luxury Himalayan Retreat', location: 'Nainital & Ranikhet', duration: '4 days', price: 34000, img: './images/61.webp', description: 'Upscale mountain resorts, guided nature walks and gourmet dining.' }
+  { id: 'p9', name: 'Sundarbans Wildlife Cruise', location: 'Sundarbans', duration: '3 days', price: 21000, img: './images/61.webp', description: 'Guided river safaris with experienced naturalists and comfortable boat cabins.' }
+  
 ];
