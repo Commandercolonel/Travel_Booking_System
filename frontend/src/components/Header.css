@@ -1,0 +1,31 @@
+/* Minimal header styles used by Header.jsx */
+.site-header, .header {
+  background: #35424a;
+  color: #fff;
+  padding: 0.75rem 1rem;
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header .logo {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.site-header nav a {
+  color: #fff;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+/* Brand/logo */
+.brand-link{display:flex;align-items:center;text-decoration:none;color:inherit}
+.site-logo{width:48px;height:48px;margin-right:12px;display:inline-block;border-radius:10px}
+.logo-text{font-weight:800;font-size:1.15rem;letter-spacing:0.2px}
+
+@media (max-width:720px){
+  .site-logo{width:36px;height:36px;margin-right:8px}
+  .logo-text{font-size:1rem}
+}
+

@@ -1,0 +1,17 @@
+/* Minimal footer styles used by Footer.jsx */
+.footer, .site-footer {
+  background: #35424a;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.footer .footer-content, .site-footer .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer-links, .footer-links li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  list-style: none;
+}
+.footer a { color: #fff; text-decoration: none; }
