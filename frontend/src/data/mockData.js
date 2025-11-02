@@ -34,21 +34,21 @@ export const FLIGHTS = [
 ];
 
 export const BUSES = [
-  { id: 'b1', operator: 'RedBus Express', busNumber: 'RB-01', from: 'Bengaluru', to: 'Mysuru', departure: '07:00', arrival: '09:30', duration: '2h 30m', price: 400, img: './images/69.jpg', description: 'Comfortable semi-sleeper coaches with onboard Wi-Fi and courteous staff.' },
+  { id: 'b1', operator: 'RedBus Express', busNumber: 'RB-01', from: 'Bengaluru', to: 'Mysuru', departure: '07:00', arrival: '09:30', duration: '2h 30m', price: 400, img: './images/77.jpg', description: 'Comfortable semi-sleeper coaches with onboard Wi-Fi and courteous staff.' },
   { id: 'b2', operator: 'State Travels', busNumber: 'ST-120', from: 'Chennai', to: 'Pondicherry', departure: '10:00', arrival: '12:30', duration: '2h 30m', price: 350, img: './images/75.jpg', description: 'Affordable state-run service with frequent stops and good coverage.' },
   { id: 'b3', operator: 'Night Link', busNumber: 'NL-9', from: 'New Delhi', to: 'Jaipur', departure: '22:00', arrival: '02:30', duration: '4h 30m', price: 650, img: './images/73.jpg', description: 'Night service with recliner seats and onboard security for safe travel.' },
-  { id: 'b4', operator: 'ComfortLines', busNumber: 'CL-45', from: 'Mumbai', to: 'Pune', departure: '08:00', arrival: '10:30', duration: '2h 30m', price: 450, img: './images/70.jpg', description: 'Premium coaches with extra legroom and complimentary bottled water.' },
-  { id: 'b5', operator: 'GreenTours', busNumber: 'GT-77', from: 'Goa', to: 'Kolhapur', departure: '06:30', arrival: '12:30', duration: '6h 0m', price: 700, img: './images/80.jpg', description: 'Tour-friendly routes with luggage space and scenic stops.' },
+  { id: 'b4', operator: 'ComfortLines', busNumber: 'CL-45', from: 'Mumbai', to: 'Pune', departure: '08:00', arrival: '10:30', duration: '2h 30m', price: 450, img: './images/80.jpg', description: 'Premium coaches with extra legroom and complimentary bottled water.' },
+  { id: 'b5', operator: 'GreenTours', busNumber: 'GT-77', from: 'Goa', to: 'Kolhapur', departure: '06:30', arrival: '12:30', duration: '6h 0m', price: 700, img: './images/75.jpg', description: 'Tour-friendly routes with luggage space and scenic stops.' },
   { id: 'b6', operator: 'ExpressWay', busNumber: 'EW-11', from: 'Hyderabad', to: 'Vijayawada', departure: '13:00', arrival: '16:20', duration: '3h 20m', price: 520, img: './images/79.jpg', description: 'Express intercity service with priority boarding and punctual departures.' },
-  { id: 'b7', operator: 'Volvo Lux', busNumber: 'VL-08', from: 'Bengaluru', to: 'Goa', departure: '20:00', arrival: '06:00', duration: '10h 0m', price: 1200, img: './images/78.jpg', description: 'Overnight Volvo sleepers with individual reading lights and privacy curtains.' },
+  { id: 'b7', operator: 'Volvo Lux', busNumber: 'VL-08', from: 'Bengaluru', to: 'Goa', departure: '20:00', arrival: '06:00', duration: '10h 0m', price: 1200, img: './images/73.jpg', description: 'Overnight Volvo sleepers with individual reading lights and privacy curtains.' },
   { id: 'b8', operator: 'MetroLink', busNumber: 'ML-03', from: 'Kolkata', to: 'Digha', departure: '09:30', arrival: '13:15', duration: '3h 45m', price: 380, img: './images/77.jpg', description: 'Coastal route with comfortable seating and driver-friendly schedules.' },
-  { id: 'b9', operator: 'RapidMove', busNumber: 'RM-21', from: 'Chandigarh', to: 'Amritsar', departure: '11:00', arrival: '13:30', duration: '2h 30m', price: 300, img: './images/76.jpg', description: 'Fast commuter service with limited stops and smooth highways.' }
+  { id: 'b9', operator: 'RapidMove', busNumber: 'RM-21', from: 'Chandigarh', to: 'Amritsar', departure: '11:00', arrival: '13:30', duration: '2h 30m', price: 300, img: './images/80.jpg', description: 'Fast commuter service with limited stops and smooth highways.' }
   
 ];
 
 export const TRAINS = [
   { id: 't1', operator: 'IRCTC', trainNumber: '12627', from: 'New Delhi', to: 'Varanasi', departure: '16:30', arrival: '06:20', duration: '13h 50m', price: 900, img: './images/22.jpg', description: 'Overnight express with comfortable sleepers and reliable catering.' },
-  { id: 't2', operator: 'Indian Railways', trainNumber: '12001', from: 'Mumbai', to: 'Pune', departure: '06:15', arrival: '09:00', duration: '2h 45m', price: 250, img: './images/29.jpg', description: 'High-frequency commuter service with reserved seats available.' },
+  { id: 't2', operator: 'Indian Railways', trainNumber: '12001', from: 'Mumbai', to: 'Pune', departure: '06:15', arrival: '09:00', duration: '2h 45m', price: 250, img: './images/24.jpg', description: 'High-frequency commuter service with reserved seats available.' },
   { id: 't3', operator: 'Shatabdi', trainNumber: '12036', from: 'Bengaluru', to: 'Mysuru', departure: '07:45', arrival: '09:30', duration: '1h 45m', price: 500, img: './images/28.jpg', description: 'Premium day-train offers fast connections and onboard meals.' },
   { id: 't4', operator: 'Rajdhani', trainNumber: '12423', from: 'New Delhi', to: 'Mumbai', departure: '17:00', arrival: '07:30', duration: '14h 30m', price: 2200, img: './images/27.jpg', description: 'Top-tier service with AC sleepers and attentive staff.' },
   { id: 't5', operator: 'Duronto', trainNumber: '12215', from: 'Howrah', to: 'New Delhi', departure: '20:00', arrival: '12:30', duration: '16h 30m', price: 1800, img: './images/26.jpg', description: 'Non-stop express connecting major metros with swift transit.' },
